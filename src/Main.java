@@ -30,8 +30,9 @@ public class Main {
                 }
 
                 if(isPrivate){
-
-                    privNbr.add(String.valueOf(nbr));
+                    /*if(nbr%2==0) {*/
+                        privNbr.add(String.valueOf(nbr));
+                    /*}*/
                     count++;
                 }
 
